@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using SortLibrary.Functions;
+﻿using SortLibrary.Functions;
 
 namespace SortLibrary.Sorts
 {

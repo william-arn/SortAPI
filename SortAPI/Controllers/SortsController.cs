@@ -9,8 +9,6 @@ using Microsoft.AspNetCore.Http;
 using SortLibrary.Sorts;
 using System.Threading;
 using SortLibrary;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 
 namespace SortAPI.Controllers
 {
@@ -25,15 +23,6 @@ namespace SortAPI.Controllers
         {
             _mediator = mediator;
             _logger = logger;
-        }
-        
-        [HttpPost("Debug")]
-        public async Task<ActionResult<int[]>> Debug(
-            [FromBody] InputData inputData,
-            CancellationToken token)
-        {
-            var result = await _mediator.Send(new Handlers.SortHandler.Command(inputData.data, SortMethods.BubbleSort), token);
-            return new OkObjectResult(result);
         }
 
         [HttpPost("BubbleSort")]

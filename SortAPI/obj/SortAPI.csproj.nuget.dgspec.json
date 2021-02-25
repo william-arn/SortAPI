@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\William\\source\\repos\\SortAPI\\SortAPI\\SortAPI.csproj": {}
+    "C:\\Users\\William\\source\\repos\\sortAPI\\SortAPI\\SortAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\William\\source\\repos\\SortAPI\\SortAPI\\SortAPI.csproj": {
+    "C:\\Users\\William\\source\\repos\\sortAPI\\SortAPI\\SortAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\William\\source\\repos\\SortAPI\\SortAPI\\SortAPI.csproj",
+        "projectUniqueName": "C:\\Users\\William\\source\\repos\\sortAPI\\SortAPI\\SortAPI.csproj",
         "projectName": "SortAPI",
-        "projectPath": "C:\\Users\\William\\source\\repos\\SortAPI\\SortAPI\\SortAPI.csproj",
+        "projectPath": "C:\\Users\\William\\source\\repos\\sortAPI\\SortAPI\\SortAPI.csproj",
         "packagesPath": "C:\\Users\\William\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\William\\source\\repos\\SortAPI\\SortAPI\\obj\\",
+        "outputPath": "C:\\Users\\William\\source\\repos\\sortAPI\\SortAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\Users\\William\\source\\repos\\SortAPI\\SortLibrary\\SortLibrary.csproj": {
-                "projectPath": "C:\\Users\\William\\source\\repos\\SortAPI\\SortLibrary\\SortLibrary.csproj"
+              "C:\\Users\\William\\source\\repos\\sortAPI\\SortLibrary\\SortLibrary.csproj": {
+                "projectPath": "C:\\Users\\William\\source\\repos\\sortAPI\\SortLibrary\\SortLibrary.csproj"
               }
             }
           }
@@ -82,14 +82,14 @@
         }
       }
     },
-    "C:\\Users\\William\\source\\repos\\SortAPI\\SortLibrary\\SortLibrary.csproj": {
+    "C:\\Users\\William\\source\\repos\\sortAPI\\SortLibrary\\SortLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\William\\source\\repos\\SortAPI\\SortLibrary\\SortLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\William\\source\\repos\\sortAPI\\SortLibrary\\SortLibrary.csproj",
         "projectName": "SortLibrary",
-        "projectPath": "C:\\Users\\William\\source\\repos\\SortAPI\\SortLibrary\\SortLibrary.csproj",
+        "projectPath": "C:\\Users\\William\\source\\repos\\sortAPI\\SortLibrary\\SortLibrary.csproj",
         "packagesPath": "C:\\Users\\William\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\William\\source\\repos\\SortAPI\\SortLibrary\\obj\\",
+        "outputPath": "C:\\Users\\William\\source\\repos\\sortAPI\\SortLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
