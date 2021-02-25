@@ -15,7 +15,7 @@ namespace SortAPI.Handlers
         public class NotificationMessage : INotification
         {
             public string NotificationText { get; set; }
-    }
+        }
 
         public class Command : IRequest<int[]>
         {
@@ -48,7 +48,7 @@ namespace SortAPI.Handlers
 
                 try
                 {
-                    _logger.LogInformation("Start handle data");
+                    _logger.LogInformation("Start handling data");
                     switch (method)
                     {
                         case SortMethods.BubbleSort:
@@ -68,8 +68,8 @@ namespace SortAPI.Handlers
                 {
                     _logger.LogError($"Error handling data - {e.Message}");
                 }
-
-                await _mediator.Publish(new NotificationMessage { NotificationText = "Notification text test in SortHandler.cs" });
+                _logger.LogInformation("End handling data");
+                await _mediator.Publish(new NotificationMessage { NotificationText = "Ending Handler in SortHandler.cs" });
 
                 return await Task.FromResult(result);
             }
