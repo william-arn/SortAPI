@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SortLibrary
+﻿namespace SortLibrary
 {
     public class InputData
     {

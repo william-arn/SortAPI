@@ -9,8 +9,6 @@ using Microsoft.AspNetCore.Http;
 using SortLibrary.Sorts;
 using System.Threading;
 using SortLibrary;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 
 namespace SortAPI.Controllers
 {

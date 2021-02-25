@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using SortLibrary.Functions;
-using System.Threading.Tasks;
+﻿using SortLibrary.Functions;
 namespace SortLibrary.Sorts
 {
     public class BubbleSort : ISort
