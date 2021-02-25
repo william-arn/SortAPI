@@ -46,7 +46,7 @@ namespace SortAPI.Handlers
 
                 try
                 {
-                    _logger.LogInformation("Start handling data");
+                    _logger.LogInformation($"Start handling data. Request for {method} made containing {data.Length} elements.");
                     switch (method)
                     {
                         case SortMethods.BubbleSort:
@@ -66,7 +66,6 @@ namespace SortAPI.Handlers
                 {
                     _logger.LogError($"Error handling data - {e.Message}");
                 }
-                _logger.LogInformation("End handling data");
                 await _mediator.Publish(new NotificationMessage { NotificationText = "Ending Handler in SortHandler.cs" });
 
                 return await Task.FromResult(result);
