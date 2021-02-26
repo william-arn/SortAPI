@@ -1,2 +1,2 @@
 # SortAPI
-This is an API that performs different sorting methods to integer arrays
+This is a .NET Core API that performs different sorting methods to integer arrays
